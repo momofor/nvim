@@ -1,3 +1,6 @@
+"activate rainbox brackets
+let g:rainbow_active = 1
+"make airline theme nord
 let g:airline_theme = 'nord'
 "let g:material_theme_style = 'ocean'
 colorscheme nord

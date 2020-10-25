@@ -15,4 +15,5 @@ Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 Plug 'tpope/vim-fugitive'
 Plug 'frazrepo/vim-rainbow'
+Plug 'airblade/vim-gitgutter/'
 call plug#end()

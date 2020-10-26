@@ -18,5 +18,5 @@ Plug 'frazrepo/vim-rainbow'
 Plug 'airblade/vim-gitgutter/'
 Plug 'tpope/vim-surround'
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
-Plug 'sheerun/vim-polyglot'
+"Plug 'sheerun/vim-polyglot'
 call plug#end()

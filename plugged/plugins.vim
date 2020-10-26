@@ -17,4 +17,5 @@ Plug 'tpope/vim-fugitive'
 Plug 'frazrepo/vim-rainbow'
 Plug 'airblade/vim-gitgutter/'
 Plug 'tpope/vim-surround'
+Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 call plug#end()

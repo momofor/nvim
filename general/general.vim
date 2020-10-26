@@ -8,6 +8,8 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
+filetype plugin on
+syntax on
 " set leader key
 let g:mapleader = "\<Space>"
 

@@ -50,3 +50,14 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 
 " You can't stop me
 cmap w!! w !sudo tee %
+"unicode
+syntax match arrow "->" conceal cchar=→
+syntax match rpipe "|>" conceal cchar=⊳
+syntax match lpipe "<|" conceal cchar=⊲
+syntax match rcomp ">>" conceal cchar=»
+syntax match lcom "<<" conceal cchar=«
+syntax match lambda "\\" conceal cchar=λ
+syntax match cons "::" conceal cchar=∷
+syntax match parse1 "|=" conceal cchar=⊧
+syntax match parse2 "|." conceal cchar=⊦
+syntax match neq "/=" conceal cchar=≠

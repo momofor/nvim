@@ -19,4 +19,5 @@ Plug 'airblade/vim-gitgutter/'
 Plug 'tpope/vim-surround'
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 "Plug 'sheerun/vim-polyglot'
+Plug'JamshedVesuna/vim-markdown-preview'
 call plug#end()

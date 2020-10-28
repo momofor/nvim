@@ -52,3 +52,5 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 cmap w!! w !sudo tee %
 "enabling grip
 let vim_markdown_preview_github=1
+"enable tab highlighting
+let g:indent_guides_enable_on_vim_startup = 1

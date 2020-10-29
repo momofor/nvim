@@ -20,5 +20,5 @@ Plug 'tpope/vim-surround'
 "Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 "Plug 'sheerun/vim-polyglot'
 Plug 'JamshedVesuna/vim-markdown-preview'
-Plug 'nathanaelkane/vim-indent-guides'
+"Plug 'nathanaelkane/vim-indent-guides'
 call plug#end()

@@ -1,3 +1,11 @@
+"auto start  nerdtree with startify
+    autocmd VimEnter *
+                \   if !argc()
+                \ |   Startify
+                \ |   NERDTree
+                \ |   wincmd w
+                \ | endif
+
 set number relativenumber
 syntax enable
 set noswapfile

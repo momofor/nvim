@@ -76,3 +76,5 @@ cmap w!! w !sudo tee %
 let vim_markdown_preview_github=1
 "enable tab highlighting
 let g:indent_guides_enable_on_vim_startup = 1
+"add transparency 
+"hi Normal guibg=NONE ctermbg=NONE closes as it doesn't work

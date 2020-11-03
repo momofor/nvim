@@ -76,5 +76,12 @@ cmap w!! w !sudo tee %
 let vim_markdown_preview_github=1
 "enable tab highlighting
 let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_auto_colors = 0
+let g:indent_guides_auto_colors = 0
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#3B4252 ctermbg=3 "nord1
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#434C5E ctermbg=4 "nord2 
 "add transparency 
 "hi Normal guibg=NONE ctermbg=NONE closes as it doesn't work
+"rainbow
+let g:rainbow_active = 1
+

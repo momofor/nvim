@@ -7,7 +7,7 @@ colorscheme nord
 if (has('termguicolors'))
   set termguicolors
 endif
-
+hi Normal guibg=NONE ctermbg=NONE
 "airline
 " enable tabline
 let g:airline#extensions#tabline#enabled = 1

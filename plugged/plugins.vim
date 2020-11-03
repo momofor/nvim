@@ -21,4 +21,5 @@ Plug 'tpope/vim-surround'
 "Plug 'sheerun/vim-polyglot'
 Plug 'JamshedVesuna/vim-markdown-preview'
 Plug 'nathanaelkane/vim-indent-guides'
+Plug 'SirVer/ultisnips'
 call plug#end()

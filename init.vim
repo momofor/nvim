@@ -6,4 +6,4 @@ source $HOME/.config/nvim/hotkeys/hotkeys.vim
 source $HOME/.config/nvim/theme-config/themeconfig.vim
 source $HOME/.config/nvim/theme-config/airline.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
-
+source $HOME/.config/nvim/plug-config/python-syntax.vim

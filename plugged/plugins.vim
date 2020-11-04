@@ -22,4 +22,5 @@ Plug 'tpope/vim-surround'
 Plug 'JamshedVesuna/vim-markdown-preview'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'SirVer/ultisnips'
+Plug 'vim-python/python-syntax'
 call plug#end()
